@@ -1,5 +1,8 @@
-package com.example.useroauthjwt;
+package com.example.useroauthjwt.service;
 
+import com.example.useroauthjwt.repository.UserRepository;
+import com.example.useroauthjwt.entity.CustomUserDetails;
+import com.example.useroauthjwt.entity.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UserDetails;

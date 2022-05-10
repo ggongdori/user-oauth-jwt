@@ -1,6 +1,9 @@
-package com.example.useroauthjwt;
+package com.example.useroauthjwt.jwt;
 
-import com.nimbusds.oauth2.sdk.TokenResponse;
+
+import com.example.useroauthjwt.service.CustomUserDetailsService;
+import com.example.useroauthjwt.entity.RoleType;
+import com.example.useroauthjwt.dto.TokenResponse;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import lombok.RequiredArgsConstructor;

@@ -1,5 +1,6 @@
-package com.example.useroauthjwt;
+package com.example.useroauthjwt.repository;
 
+import com.example.useroauthjwt.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

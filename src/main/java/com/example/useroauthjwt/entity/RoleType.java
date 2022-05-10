@@ -1,4 +1,4 @@
-package com.example.useroauthjwt;
+package com.example.useroauthjwt.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
