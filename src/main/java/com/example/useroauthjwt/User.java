@@ -18,6 +18,8 @@ public class User {
     @Column(name = "user_id")
     private Long id;
 
+    private String userId;
+
     private String email;
     private ProviderType providerType;
     private String nickname;
