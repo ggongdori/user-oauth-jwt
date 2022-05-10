@@ -22,4 +22,5 @@ public class User {
     private ProviderType providerType;
     private String nickname;
 
+
 }
