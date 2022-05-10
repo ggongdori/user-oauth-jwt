@@ -89,7 +89,7 @@ public class CustomUserDetails implements OAuth2User, UserDetails, OidcUser {
 
     public static CustomUserDetails create(User user) {
         return new CustomUserDetails(
-                user.getUserId(),
+                user.getUsername(),
                 user.getProviderType(),
                 RoleType.USER,
                 Collections.singletonList(new SimpleGrantedAuthority(RoleType.USER.getCode()))

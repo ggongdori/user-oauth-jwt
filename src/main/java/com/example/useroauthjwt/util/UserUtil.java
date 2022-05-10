@@ -13,7 +13,7 @@ public class UserUtil {
     private final UserRepository userRepository;
 
     public User findCurrentUser() {
-        User user = userRepository.findByUserId(SecurityUtil.getCurrentMemberId())
+        User user = userRepository.findByUsername(SecurityUtil.getCurrentMemberId())
                 .orElseThrow(() -> new IllegalArgumentException("존재하지 않는 사용자입니다."));
 
         return user;
